@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "Century Gothic", sans-serif;
+	src: url(gothic.woff);
+}
 body {
 	background: #F8F8FF;
 	font-family: "Century Gothic", sans-serif;
