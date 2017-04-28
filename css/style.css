@@ -1,0 +1,187 @@
+body {
+	background: #F8F8FF;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+.me {
+	width: 100%;
+	margin: 0 0 5px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+.me img {
+	width: 100%;
+}
+
+.me .nome h1 {
+	font-size: 40px;
+	text-indent: 10px;
+	width: auto;
+	margin-top: -60px;
+	background: white;
+	opacity: 0.5;
+}
+
+.me .info {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 5px 0;
+}
+
+.me .info p {
+	margin-top: -10px;
+	margin-left: 10px;
+}
+
+.me hr {
+	margin: 0;
+	padding: 0;
+	width: 97%;
+	border-color: #95a791;
+}
+
+.me .info .idiomas .titulo {
+	font-size: 28px;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+
+.me .info .idiomas p {
+	margin-top: 0;
+	display: absolute;
+}
+
+.whome {
+	width: 100%;
+	margin: 0 0 5px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+.whome blockquote {
+	text-align: justify;
+}
+
+.whome .medesc {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 5px 0;
+}
+
+.desc {
+	width: 100%;
+	margin: 0 0 5px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+.desc .line3-4 {
+	margin-left: auto;
+	padding: 0;
+	width: 97%;
+	border-color: #95a791;
+}
+
+.desc .line-2 {
+   display: none;
+}
+
+.desc .description {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 5px 0;
+}
+
+.desc .description .titulo {
+	font-size: 28px;
+	padding-left: 10px;
+}
+
+.desc .description .cargo {
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.desc .description .data {
+	font-size: 16px;
+	float: left;
+	padding-left: 20px;
+}
+
+.desc .description .button {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: #95a791;
+	margin-left: 5px;
+	border-radius: 4px;
+	border: none;
+	padding: 1px 2px;
+	display: inline-block;
+}
+
+.desc .description blockquote {
+	text-align: justify;
+}
+
+.desc .education {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 20px 0;
+}
+
+.desc .education .titulo {
+	font-size: 28px;
+	padding-left: 10px;
+}
+
+.desc .education .curso {
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.desc .education .place {
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+.desc .education .data {
+	font-size: 16px;
+	float: left;
+	padding-left: 20px;
+}
+
+.desc .education .button {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: #95a791;
+	margin-left: 5px;
+	border-radius: 4px;
+	border: none;
+	padding: 1px 2px;
+	display: inline-block;
+}
+
+.desc .education .e-icon {
+	margin-top: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.desc .education .e-icon img {
+	max-width: 52px;
+	max-height: 52px;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19); 
+}
