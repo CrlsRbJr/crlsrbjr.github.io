@@ -3,7 +3,7 @@
 	src: url(gothic.ttf) format('truetype');
 }
 
-body {
+html {
 	background: #F8F8FF;
 	font-family: "Century Gothic", sans-serif;
 }
