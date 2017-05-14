@@ -45,6 +45,11 @@ a {
 	color: black;
 }
 
+ul a:hover {
+	font-size: 110%;
+	margin-top: 0px;
+}
+
 .titulo {
 	font-size: 28px;
 	padding-left: 10px;
