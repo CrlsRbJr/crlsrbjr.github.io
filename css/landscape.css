@@ -1,25 +1,30 @@
 @media only screen
 and (max-width: 568px)
 and (orientation: landscape) {
-.container {
+
+.caixa {
 	max-width: 960px;
 	margin: 0 auto;
 	display: block;
 }
 
-.me {
+.esquerda-caixa {
 	float: left;
 	display: block;
 	max-width: 200px;
-	margin-left: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.me img {
+.esquerda {
+	margin-left: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-bottom: 5px;
+}
+
+img {
 	width: 100%;
 }
 
-.me .nome h1 {
+.nome h1 {
 	font-size: 26px;
 	text-indent: 10px;
 	width: auto;
@@ -28,43 +33,24 @@ and (orientation: landscape) {
 	opacity: 0.5;
 }
 
-.me .info {
-	width: 100%;
-	padding: 5px 5px 5px 5px;
-	margin: 0 0 5px 0;
-}
-
-.me .info p {
-	margin-top: -10px;
-	margin-left: 10px;
-}
-
-.me hr{
-	margin: 0;
-	padding: 0;
-	width: 97%;
-	border-color: #95a791;
-}
-
-.me .info .idiomas .titulo {
+.titulo {
 	font-size: 28px;
 	padding-left: 10px;
 	margin-top: 5px;
 }
 
-.me .info .idiomas p {
-	margin-top: 0;
-	display: absolute;
+.centro-direito-caixa {
+	width: 100%;
 }
 
-.whome {
+.centro-direito {
 	float: left;
 	margin-left: 10px;
 	max-width: 330px; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.whome .medesc {
+.centro-direito-caixa .medesc {
 	width: 100%;
 	padding: 5px 5px 5px 5px;
 	margin: 0 0 5px 0;
@@ -167,13 +153,13 @@ and (orientation: landscape) {
 and (max-width: 667px)
 and (min-width: 569px)
 and (orientation: landscape) {
-.container {
+.caixa {
 	max-width: 960px;
 	margin: 0 auto;
 	display: block;
 }
 
-.me {
+.esquerda {
 	float: left;
 	display: block;
 	max-width: 235px;
@@ -181,11 +167,11 @@ and (orientation: landscape) {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.me img {
+.esquerda img {
 	width: 100%;
 }
 
-.me .nome h1 {
+.esquerda .nome h1 {
 	font-size: 26px;
 	text-indent: 10px;
 	width: auto;
@@ -194,31 +180,31 @@ and (orientation: landscape) {
 	opacity: 0.5;
 }
 
-.me .info {
+.esquerda .info {
 	width: 100%;
 	padding: 5px 5px 5px 5px;
 	margin: 0 0 5px 0;
 }
 
-.me .info p {
+.esquerda .info p {
 	margin-top: -10px;
 	margin-left: 10px;
 }
 
-.me hr{
+.esquerda hr{
 	margin: 0;
 	padding: 0;
 	width: 97%;
 	border-color: #95a791;
 }
 
-.me .info .idiomas .titulo {
+.esquerda .info .idiomas .titulo {
 	font-size: 28px;
 	padding-left: 10px;
 	margin-top: 5px;
 }
 
-.me .info .idiomas p {
+.esquerda .info .idiomas p {
 	margin-top: 0;
 	display: absolute;
 }
@@ -334,13 +320,13 @@ and (orientation: landscape) {
 and (max-width: 736px)
 and (min-width: 668px)
 and (orientation: landscape) {
-.container {
+.caixa {
 	max-width: 960px;
 	margin: 0 auto;
 	display: block;
 }
 
-.me {
+.esquerda {
 	float: left;
 	display: block;
 	max-width: 260px;
@@ -348,11 +334,11 @@ and (orientation: landscape) {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.me img {
+.esquerda img {
 	width: 100%;
 }
 
-.me .nome h1 {
+.esquerda .nome h1 {
 	font-size: 26px;
 	text-indent: 10px;
 	width: auto;
@@ -361,31 +347,31 @@ and (orientation: landscape) {
 	opacity: 0.5;
 }
 
-.me .info {
+.esquerda .info {
 	width: 100%;
 	padding: 5px 5px 5px 5px;
 	margin: 0 0 5px 0;
 }
 
-.me .info p {
+.esquerda .info p {
 	margin-top: -10px;
 	margin-left: 10px;
 }
 
-.me hr{
+.esquerda hr{
 	margin: 0;
 	padding: 0;
 	width: 97%;
 	border-color: #95a791;
 }
 
-.me .info .idiomas .titulo {
+.esquerda .info .idiomas .titulo {
 	font-size: 28px;
 	padding-left: 10px;
 	margin-top: 5px;
 }
 
-.me .info .idiomas p {
+.esquerda .info .idiomas p {
 	margin-top: 0;
 	display: absolute;
 }
