@@ -1,11 +1,11 @@
 @font-face {
-	font-family: "Century Gothic", sans-serif;
-	src: url(gothic.ttf) format('truetype');
+	font-family: cgothic;
+	src: local(gothic.ttf), url(gothic.ttf) format('truetype');
 }
 
 html {
 	background: #F8F8FF;
-	font-family: "Century Gothic", sans-serif;
+	font-family: cgothic, sans-serif;
 }
 
 .caixa {
